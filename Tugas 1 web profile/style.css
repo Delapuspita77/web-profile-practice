@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black ;
+  margin-left: 40px;
+}
+
+.menu {
+  justify-content: flex-end;
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  justify-content: space-between;
+  border-bottom: 2px solid #e3dfdf; 
+  background-color: #ffffff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.gambar {
+  float: right;
+  width: 500px;
+  padding: 50px 100px 50px 50px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(bg_biru.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 150px;
+  width:50%;
+}
+
+.picture{
+  align-items: stretch;
+}
+
+.salam {
+  font-family: Poppins;
+  font-weight: 20px;
+  font-size: 35px;
+}
+
+#nama {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 70px;
+  margin: -30px 0px 0px 0px;
+}
+
+#deskripsi {
+  font-family: Poppins;
+  font-weight: thin;
+  font-size: 17px;
+}
+
+.content {
+  background-color: #E2F9FF;
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins;
+  margin-left: 0px;
+}
+
+.line1 {
+  display: flex;
+  flex-direction: column; 
+  margin: 50px 30px 30px 30px;
+  padding-inline: 85px;
+}
+
+.pengalaman1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.bendahara {
+  width: 500px;
+  padding: 50px 100px 10px 100px;
+  align-items: center;
+}
+
+.grup1 {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.abdes {
+  width: 500px;
+  padding: 50px 100px 10px 100px;
+  align-items: center;
+}
+
+.grup2 {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.studban {
+  width: 500px;
+  padding: 50px 100px 10px 100px;
+  align-items: center;
+}
+
+.grup3 {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.line2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+  background-color: rgb(255, 255, 255);
+}
+
+/* .gambar1 {
+  width: 1200px;
+  align-items: flex-start;
+} */
+
+.saya {
+  width: 55%;
+  margin-left: -70px;
+  align-items: first baseline;
+}
+
+.kelebihan {
+  margin-top: 180px;
+  margin-left:-500px ;
+  align-items: center;
+  margin-right: 90px;
+  text-align: center;
+}
+
+.hobi {
+  margin-top: 180px;
+  text-align: center;
+  margin-right: 100px;
+}
+
+.pendidikan {
+  margin-top: 180px;
+  text-align: center;
+  margin-right: 100px;
+}
+
+.h4 {
+  font-weight: bold;
+}
+
+.line3{
+  display: flex;
+  margin-top: 10px;
+}
+
+.contact {
+  font-size: 17px;
+  line-height: 2px;
+  margin-left: 10px;
+}
+
+
+
+
+
